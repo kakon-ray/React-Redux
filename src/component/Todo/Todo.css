@@ -9,9 +9,13 @@
   justify-content: center;
   align-items: center;
   background-color: cadetblue;
-
+  border-radius: 10px;
   width: 30%;
   margin: 20px auto;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 .item h3 {
   margin-right: 40px;
