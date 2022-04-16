@@ -1,0 +1,19 @@
+.add-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: cadetblue;
+
+  width: 30%;
+  margin: 20px auto;
+}
+.item h3 {
+  margin-right: 40px;
+  margin: 10px 40px;
+}
