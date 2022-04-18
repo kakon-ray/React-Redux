@@ -3,7 +3,7 @@ import React from "react";
 const initialState = {
   list: [],
 };
-const counterRiducer = (state = initialState, action) => {
+const todoRiducer = (state = initialState, action) => {
   switch (action.type) {
     case "ADD_TODO":
       const { id, data } = action.payload;
@@ -34,4 +34,4 @@ const counterRiducer = (state = initialState, action) => {
   }
 };
 
-export default counterRiducer;
+export default todoRiducer;
